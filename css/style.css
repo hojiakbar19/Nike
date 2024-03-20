@@ -1,0 +1,234 @@
+@import "fonts.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+body {
+    background: #E5E5E5;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+/* header start */
+
+.header {
+    min-height: 565px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    background: #322E41;
+}
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+}
+
+.link {
+    color: #fff;
+    padding: 23px 22px;
+    display: inline-block;
+    transition: .4s;
+}
+
+.link:hover {
+    background: white;
+    color: #D47300;
+}
+
+.content {
+    background: url(../img/nike.png) no-repeat center center / cover;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.title {
+    font-size: calc(40px + 10 * (100vw / 1920));
+    text-transform: uppercase;
+    max-width: 112px;
+    width: 100%;
+}
+
+.txt {
+    font-size: calc(15px + 3 * (100vw / 1920));
+    max-width: 293px;
+    width: 100%;
+    text-align: center;
+}
+
+/* header end */
+
+/* product start */
+
+.product {
+    margin: -30px 0 30px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+}
+
+.products_desc {
+    max-width: 540px;
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+.products_title {
+    margin: 0 0 10px;
+}
+
+.products_link {
+    color: #2C2A2A;
+    font-size: 22px;
+}
+
+.products_txt {
+    color: #9B9B9B;
+}
+
+.products_cards {
+    max-width: 540px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+
+.products_card {
+    max-width: 255px;
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 15px;
+    text-align: center;
+}
+
+.products_card > .products_txt {
+    line-height: 16px;
+}
+
+.products_card .products_link {
+    line-height: 6px;
+}
+
+.products_img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #D47300;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.products_image {
+    width: 100%;
+    min-height: 263px;
+    border-radius: 6px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* product end */
+
+/* footer start */
+
+.footer {
+    background: #322E41;
+    padding: 40px 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    width: 100%;
+    row-gap: 10px;
+}
+
+.form * {
+    border-radius: 6px;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+}
+
+
+.form_textarea {
+    height: 86px;
+    resize: vertical;
+}
+
+.form_btn {
+    background: #544294;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer_nav {
+    display: flex;
+    column-gap: 73px;
+    row-gap: 10px;
+    color: #fff;
+}
+
+.footer_link {
+    color: #fff;
+    margin-bottom: 10px;
+    display: inline-block;
+    transition: .4s;
+}
+
+.footer_link:hover {
+    color: #D47300;
+}
+
+.footer_socials {
+    display: flex;
+    gap: 40px;
+}
+
+/* footer end */
+
+
